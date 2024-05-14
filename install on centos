@@ -1,0 +1,10 @@
+1. First install some required packages
+
+    sudo yum install -y yum-utils
+    sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
+
+2.  Secondly install and check the version of Terraform that was installed 
+    sudo yum -y install terraform
+    terraform -v
+    Open image-20230226-064832.png
+    image-20230226-064832.png
